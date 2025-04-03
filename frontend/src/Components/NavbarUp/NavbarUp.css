@@ -1,0 +1,38 @@
+.nav-bar{
+
+
+    position: Absolute;
+    top: 0;
+    right: 0;
+    width: 95%;
+    height: 60px;
+    background-color: #25282d;
+    box-shadow: 0 0px 1px rgba(209, 208, 208, 0.5);
+    border: 0.25px solid rgba(38, 38, 38, 0.2);
+
+}
+.Conatiner{
+        position: relative;
+        left: 2.2rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        gap :45px;
+        align-items: center;
+        justify-content: center;
+        max-width: 70rem;
+
+        padding: 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

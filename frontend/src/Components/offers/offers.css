@@ -1,0 +1,132 @@
+.offers{
+    font-family: "Plus Jakarta sans";
+
+    position: relative;
+    top: 15rem;
+    left: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    z-index: 1;
+
+    width: 87%;
+    height: 14rem;
+
+}
+h1{
+    font-family: "Plus Jakarta sans";
+    color: white;
+    position: relative;
+
+}
+.offers-container {
+    position: relative;
+
+    top: -70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    gap: 3rem;
+    width: 100%;
+    height: 1%;
+    margin: auto;
+}
+.FlashSales,.Recommendation,.BigSaves{
+    width: 350px;
+    height: 350px;
+    background-color: #24272c;
+    border-radius: 20px;
+    margin: auto;
+
+
+    justify-content: center;
+    display: flex;
+    position: relative;
+
+}
+h3{
+    font-family: "Plus Jakarta sans";
+    color: white;
+    position: relative;
+
+}
+.product-container{
+    position: Absolute;
+    top: 146px;
+
+    align-items: center;
+    width: 316px;
+    height: 1px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-left:2px;
+    margin-right:2px;
+}
+#productone, #producttwo{
+    font-family: "Plus Jakarta sans";
+    color: white;
+    background-color: #2a2d32;
+    width: 50%;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5px 0.7px #777575;
+}
+.buttons{
+
+    height: 30px;
+    font-family: "Plus Jakarta sans";
+    color: black;
+    position: absolute;
+    left: 14px;
+    top: 24.5rem;
+    z-index: 1;
+    max-width: 50rem;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 6.5rem;
+}
+button{
+    font-family: 'inter';
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    align-items: center;
+    font-size: 14px;
+
+}
+button:active{
+    background-color: #bdbdbd;
+}
+.buttons2{
+    height: 30px;
+    font-family: "Plus Jakarta sans";
+    color: black;
+    position: Absolute;
+    left: 392px;
+    top: 24.5rem;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    gap: 6.2rem;
+}
+.buttons3{
+    height: 30px;
+    font-family: "Plus Jakarta sans";
+    color: black;
+    position: Absolute;
+    left: 770px;
+    top: 24.5rem;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    gap: 6.2rem;
+}
+

@@ -1,0 +1,13 @@
+
+#reorder{
+    font-family: "Plus Jakarta sans";
+    color: #ffffff;
+    cursor: pointer;
+
+}
+#heart{
+    position: relative;
+    left: 4px;
+    top: 4px;
+}
+

@@ -1,0 +1,28 @@
+.category-container {
+    font-family: "Plus Jakarta sans";
+
+
+    position: relative;
+}
+#categoryText {
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+#categoryList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: rgba(30 ,33,38,2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#categoryItem {
+    padding: 5px 0;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
