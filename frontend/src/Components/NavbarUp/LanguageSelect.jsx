@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from "react";
-import "./Languages.css"
+
 
 const Languages = () => {
     const [Language ,setLanguage]=useState("ENG");

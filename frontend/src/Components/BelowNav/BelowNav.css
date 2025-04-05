@@ -1,21 +1,113 @@
-.container-BelowNav{
+.below-nav{
+    position: Absolute;
+
+    top: 6rem;
+    right: 46px;
+
+
+    width: 88%;
+    height: 30px;
+}
+.container-BelowNav {
+    text-decoration: none;
+    color: white;
+
+    margin: auto;
     position: relative;
-    top: 65px;
-    left: 6rem;
+    justify-content: space-between;
 
     height: 100%;
     width: 100%;
     display: flex;
-    gap :24px;
+
     align-items: center;
-    max-width: 90%;
-    font-size: 18px;
-
-
-    font-family: "Plus Jakarta sans", sans-serif;
-    padding: 0rem 1rem;
 }
-.container-BelowNav a{
-    text-decoration: none;
+.container-BelowNav a {
     color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Plus Jakarta sans";
+
+}
+@media (max-width: 490px) {
+
+    .below-nav {
+       display: none;
+
+    }
+
+
+
+
+
+
+
+}
+@media (min-width: 850px) and (max-width: 1170px)
+{
+    .below-nav{
+
+        width: 90%;
+        height: 2rem;
+        position: Absolute;
+        top: 4.5rem;
+        right: 0px;
+
+
+
+
+
+    }
+    .container-BelowNav {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin:auto;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+
+    }
+    .container-BelowNav a{
+        width: 200px;
+        font-size: 13px;
+        font-weight: bold;
+
+    }
+
+
+}
+@media (min-width: 490px) and (max-width: 850px) {
+    .below-nav {
+
+        width: 90%;
+        height: 2rem;
+        position: Absolute;
+        top: 3.2rem;
+        right: 0px;
+
+
+    }
+
+    .container-BelowNav {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+
+    }
+
+    .container-BelowNav a {
+        width: 200px;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
 }

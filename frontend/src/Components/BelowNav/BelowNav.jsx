@@ -14,8 +14,8 @@ const BelowNav = () => {
                 <a href="">Limited Items</a>
                 <a href="">Flash Sales</a>
                 <a href="">Big Saves</a>
-                <a href="">Action</a>
-                <a href=""><IoMdArrowDropdown /></a>
+                <a href="">Action<IoMdArrowDropdown /></a>
+
 
 
 

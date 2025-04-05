@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosNotificationsOutline } from "react-icons/io";
-import "./Notification.css"
+
 
 const Login = () => {
     return (

@@ -19,8 +19,10 @@ function App() {
   return (
     <div>
             <BrowserRouter>
-                 <NavbarLeft/>
-                <Routes>
+
+
+                    <Routes>
+
                     <Route path="/" element={<Shop/>}/>
                     <Route path="/phones" element={<ShopCategory Category="phones"/>}/>
                     <Route path="/laptops" element={<ShopCategory Category="laptops"/>}/>
@@ -34,9 +36,14 @@ function App() {
                     <Route path="/Delivry" element={<DelivryPage/>}/>
                     <Route path="/Saved" element={<Saved/>}/>
                     <Route path="/Settings" element={<Settings/>}/>
+                        </Routes>
 
 
-                </Routes>
+
+
+
+
+
              </BrowserRouter>
     </div>
 

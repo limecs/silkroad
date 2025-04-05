@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from "react";
-import "./Currency.css"
+
 
  const Currency = () => {
      const [Currency ,setCurrency]=useState("EUR");

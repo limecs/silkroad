@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import "./Categories.css"
+
 import { SlArrowDown } from "react-icons/sl";
 
 const Categories = () => {
@@ -12,7 +12,7 @@ const Categories = () => {
                     onMouseEnter={() => setisHovered(true)}
                     onMouseLeave={() => setisHovered(false)}>
 
-                <a href='#' id='categoryText'>Categories <SlArrowDown style={{ width: '10px', height: '10px',position:'relative',top:'1px',left:'3px'}} /> </a>
+                <a href='#' id='categoryText'>Categories <SlArrowDown style={{ width: '5px', height: '5px',position:'relative'}} /> </a>
 
                 {isHovered && (
                     <ul id='categoryList'>

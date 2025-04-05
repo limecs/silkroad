@@ -4,27 +4,20 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 6%;
+    width: 7%;
     height: 100%;
     background: linear-gradient(to top, rgb(37, 40, 45), rgb(37, 40, 46));
     z-index: 1;
     box-shadow: 0.5px 1px 1px rgb(55, 55, 55);
 
 }
-.Container{
+@media (max-width: 490px) {
+    .NavbarLeft{
 
-    display: flex;
-    flex-direction: column;
+    background: transparent;
+        box-shadow:none;
 
-    align-items: center;
-    position: relative;
-    top: 12px;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-
-    row-gap: 15px;
-    max-height: 72rem;
+}
 
 }
 

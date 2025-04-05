@@ -10,6 +10,7 @@ import { FaRegBookmark } from "react-icons/fa";
 import { IoMoonOutline } from "react-icons/io5";
 import { BsFillQuestionOctagonFill } from "react-icons/bs";
 import { RiSettingsLine } from "react-icons/ri";
+import LogoImg from "../Assets/logo.png";
 
 
 
@@ -20,19 +21,19 @@ const icones = () => {
         <div className='Container-icones'>
 
 
-
+            <a href='/'><img className="logoImg" src={LogoImg} alt='img'/></a>
             <a href="/"><MdOutlineExplore id='Explore'/> </a>
             <a href="/Card"> <FaCartShopping id ='shoppingCart' /> </a>
-    <a href="#"> <FaUserFriends id ='friends' />  </a>
-    <a href="/Delivry"> <TbTruckDelivery id='Deliveries' />  </a>
+             <a href="#"> <FaUserFriends id ='friends' />  </a>
+            <a href="/Delivry"> <TbTruckDelivery id='Deliveries' />  </a>
             <a href="#"> <LuMenu id='menu' /></a>
             <a href="/saved"> <FaRegBookmark  id='Bookmark'/>  </a>
-        </div>
+
             <hr id='ligne'/>
-            <div className='Container-icones'>
+
                 <a href='#'><IoMoonOutline id='moon' /></a>
                 <a href='#'><BsFillQuestionOctagonFill id='question' /></a>
-                <a href='#'><RiSettingsLine  id='settings' /></a>
+                <a href="/Settings"><RiSettingsLine  id='settings' /></a>
 
 
             </div>
