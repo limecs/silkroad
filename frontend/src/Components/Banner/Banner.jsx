@@ -4,12 +4,12 @@ import { FaChevronLeft,FaChevronRight }from "react-icons/fa";
 
 const Banner = () => {
     const ImgSlides=[
-    "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/navy-blue-black-friday-etsy-banner-design-template-351d474d3af8e9fb90b015de638a8779_screen.jpg?ts=1737388357",
-    "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/halloween-design-template-85e6956c902cbf5e83ef99b03724081e_screen.jpg?ts=1668839988",
-    "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/black-friday-design-template-e317945af8bbda4e38ee20fedab179d7_screen.jpg?ts=1634211198",
-        "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/black-friday-design-template-99e638fad8f27bb4a79d81d54a8a8e7b_screen.jpg?ts=1737489757",
-        "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pink-we-are-hiring-email-header-design-template-c3ab237ec6abfdab53499861637e2e95_screen.jpg?ts=1737660153",
-        "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/blue-student-discounts-email-header-design-template-02bfb5e383249ddd95e3d4beeb8b626a_screen.jpg?ts=1561541735"
+    "https://chaoscomputers.co.za/wp-content/uploads/2023/03/Gaming-Computer-Catagory-Banner.jpg",
+    "https://www.stormforcegaming.co.uk/wp-content/uploads/2022/09/Full-Size-Banner-Intel13.jpg",
+    "https://images.contentstack.io/v3/assets/blt1d2d260317d3b8f0/blt916bc6a3dedca7ff/60f73a2b60e48e11c968fc90/Web-Banner-LIGHT-TEXT-PS5-Launch-v1.1.jpg",
+        "https://evolvegamingpc.com.au/cdn/shop/files/product-banner-nemesis.jpg?v=1708890208&width=1920",
+        "https://i.pinimg.com/736x/81/1a/f3/811af3e70144ef80e15d62bde4c4e6d8.jpg",
+        "https://img.freepik.com/free-psd/black-friday-super-sale-facebook-cover-banner-template_120329-5180.jpg?semt=ais_hybrid&w=740"
 ]
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,11 +30,12 @@ const Banner = () => {
 
 
     return (
-        <div>
+        <div style={{display: 'flex', flexDirection: 'column',marginBottom:'3%px'}}>
 
 
 
-                            <div id='ImgSlider' style={{ background:`url(${ImgSlides[currentIndex]})` }} >
+                            <div id='ImgSlider' style={{ backgroundImage:`url(${ImgSlides[currentIndex]})` ,backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center center' }} >
+
                                 <div id='switcher'>
 
                                     <FaChevronLeft id='ScrollLeft' onClick={prevSlide} />
@@ -42,6 +43,7 @@ const Banner = () => {
                                 </div>
                             </div>
 
+<h1>Best Offers </h1>
 
 </div>
 

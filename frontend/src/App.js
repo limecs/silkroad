@@ -36,6 +36,7 @@ function App() {
                     <Route path="/Delivry" element={<DelivryPage/>}/>
                     <Route path="/Saved" element={<Saved/>}/>
                     <Route path="/Settings" element={<Settings/>}/>
+
                         </Routes>
 
 

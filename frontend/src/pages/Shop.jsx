@@ -3,7 +3,8 @@ import NavbarUp from "../Components/NavbarUp/NavbarUp.jsx";
 import NavbarLeft from "../Components/NavbarLeft/NavbarLeft";
 import BelowNav from "../Components/BelowNav/BelowNav.jsx";
 import Banner from "../Components/Banner/Banner.jsx";
-import Offers from "../Components/offers/Offers.jsx";
+import Offers from "../Components/Offers/Offers.jsx";
+
 
 
 
@@ -15,6 +16,8 @@ const Shop = () => {
             <BelowNav/>
             <Banner/>
             <Offers/>
+
+
 
 
 

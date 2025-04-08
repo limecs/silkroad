@@ -2,30 +2,35 @@
     position: Absolute;
 
     top: 6rem;
-    right: 46px;
+    right: -1.2rem;
 
 
-    width: 88%;
+    width: 94%;
     height: 30px;
 }
 .container-BelowNav {
     text-decoration: none;
     color: white;
 
-    margin: auto;
+
     position: relative;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
+
+
 
     height: 100%;
     width: 100%;
     display: flex;
 
-    align-items: center;
+
 }
 .container-BelowNav a {
     color: white;
     text-decoration: none;
-    display: block;
+    align-items: center;
+
+
     font-size: 18px;
     font-weight: bold;
     font-family: "Plus Jakarta sans";
