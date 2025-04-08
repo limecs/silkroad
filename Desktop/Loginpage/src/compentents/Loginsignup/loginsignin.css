@@ -1,0 +1,160 @@
+body{
+background: rgb(37, 40, 46);;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 90px;
+  width: 600px;
+  background: rgb(55, 55, 55);
+  padding-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: rgb(255, 255, 255);
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 30px;
+  width: 24px;
+  height: 24px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.forget-password {
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.forget-password span {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: white;
+  background: rgb(25, 24, 24);
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit:hover {
+  background: rgb(65, 65, 65);
+}
+
+.gray {
+  background: white;
+  color: #797979;
+  border: 2px solid #eaeaea;
+  cursor: pointer !important; /* Ensures cursor shows even for inactive button */
+}
+
+.gray:hover {
+  background: #f5f5f5;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 59px;
+  color: white;
+  background: rgb(65, 65, 65);
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0 auto;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: rgb(44, 44, 44);
+}
+
+.message {
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.message.success {
+  background-color: #e6f7ee;
+  color: #2e7d32;
+}
+
+.message.error {
+  background-color: #ffebee;
+  color: #c62828;
+}
